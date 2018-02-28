@@ -1,0 +1,32 @@
+<h1>Edit Profile</h1>
+<%= form_for @profile do |f| %>
+  <%= f.label :name_first %>
+  <%= f.text_field :name_first%>
+  <br />
+
+  <%= f.label :last_name %>
+  <%= f.text_field :last_name %>
+  <br />
+
+  <%= f.label :age %>
+  <%= f.text_area :age%>
+  <br />
+
+  <%= f.label :hair_color %>
+  <%= f.text_area :hair_color%>
+  <br />
+
+  <%= f.label :eye_color %>
+  <%= f.text_area :eye_color%>
+  <br />
+
+  <%= f.label :alive %>
+  <%= f.text_area :alive%>
+  <br />
+
+  <%= f.label :url %>
+  <%= f.text_area :url%>
+  <br />
+
+  <%= f.submit %>
+<% end %>

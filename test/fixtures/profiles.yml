@@ -6,7 +6,8 @@ one:
   age: MyString
   hair_color: MyString
   eye_color: MyString
-  alive: 
+  alive: MyString
+  url: MyString
 
 two:
   name_first: MyString
@@ -14,4 +15,5 @@ two:
   age: MyString
   hair_color: MyString
   eye_color: MyString
-  alive: 
+  alive: MyString
+  url: MyString

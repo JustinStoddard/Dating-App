@@ -6,7 +6,8 @@ class CreateProfiles < ActiveRecord::Migration[5.1]
       t.string :age
       t.string :hair_color
       t.string :eye_color
-      t.true :alive
+      t.string :alive
+      t.string :pic_url
 
       t.timestamps
     end

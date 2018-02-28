@@ -1,0 +1,32 @@
+<h1>Create New Profile</h1>
+<%= form_for @profile do |f| %>
+  <%= f.label :name_first %>
+  <%= f.text_field :name_first %>   
+  <br />
+
+  <%= f.label :last_name %>
+  <%= f.text_field :last_name %>
+  <br />
+
+  <%= f.label :age %>
+  <%= f.text_field :age %>
+  <br />
+
+  <%= f.label :hair_color %>
+  <%= f.text_field :hair_color %>
+  <br />
+
+  <%= f.label :eye_color %>
+  <%= f.text_field :eye_color %>
+  <br />
+
+  <%= f.label :alive %>
+  <%= f.text_field :alive %>
+  <br />
+
+  <%= f.label :pic_url %>
+  <%= f.text_field :pic_url %>
+  <br />
+
+<%= f.submit %>
+<% end %>

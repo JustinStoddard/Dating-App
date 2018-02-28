@@ -1,0 +1,8 @@
+<h1><%= @profile.name_first %><img src="<%= @profile.url%>"/></h1>
+<h3>Full Name: <%= @profile.name_first%> <%= @profile.last_name%></h3>
+<h3>Age: <%= @profile.age %></h3>
+<h3>Hair Color: <%= @profile.hair_color %></h3>
+<h3>Eye Color: <%= @profile.eye_color %></h3>
+<h3>Alive: <%= @profile.alive %></h3>
+<%= link_to 'back', profiles_path %>
+

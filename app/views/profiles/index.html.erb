@@ -1,0 +1,8 @@
+<h1>Known Profiles</h1>
+<p><%= link_to 'Create New', new_profile_path %></p>
+<% @profiles.each do |profile| %>
+  <h2><%= profile.name_first %><img src="<%= @profile.pic_url %>"/></h2>
+  <%= link_to 'Show', profile_path(profile) %>
+  <%= link_to 'Edit', edit_profile_path(profile) %>
+  <%= link_to 'Delete', profile, method: :delete %>
+<% end %>
